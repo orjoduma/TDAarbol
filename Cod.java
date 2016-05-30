@@ -7,6 +7,8 @@
             temp = (byte) (temp<<iterador);
             iterador++;
             entero += temp;
+            System.out.println("Oh Yeah!");
         }
         System.out.println(Integer.toBinaryString(entero));
+        
     }
